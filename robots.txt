@@ -1,0 +1,5 @@
+# TODO: atualizar para o domínio definitivo quando registrado
+User-agent: *
+Allow: /
+
+Sitemap: https://www.eliteassessoria.com.br/sitemap.xml

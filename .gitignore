@@ -1,0 +1,5 @@
+# Pacotes de deploy
+*.zip
+
+# Configuração local do Claude Code
+.claude/
