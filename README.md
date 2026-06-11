@@ -7,12 +7,12 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/status-pronto_para_deploy-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/status-online-success?style=for-the-badge"/>
 </div>
 
 ---
 
-> 🌐 **Em breve no ar** — domínio a confirmar (placeholder atual: `www.eliteassessoria.com.br`)
+> 🌐 **No ar:** [www.eliteassessoria.com.br](https://www.eliteassessoria.com.br/)
 
 ---
 
@@ -28,12 +28,10 @@
 empresarial**, especializada em gestão de departamento pessoal, folha de pagamento, eSocial,
 rotinas trabalhistas, recrutamento e seleção e consultoria em gestão.
 
-O site foi construído sobre a mesma base do
-[conectividade-site](https://github.com/MrMaia/conectividade-site) — **moderno, leve e
-responsivo**, com Tailwind CSS e JavaScript puro, sem bibliotecas pesadas e sem etapa de
-build. Como não depende de fotografias, o design explora o **losango da logo** como
-identidade visual recorrente: padrões de fundo, ícones e detalhes decorativos sobre
-degradês escuros.
+O site é **moderno, leve e responsivo**, construído com Tailwind CSS e JavaScript puro,
+sem bibliotecas pesadas e sem etapa de build. Como não depende de fotografias, o design
+explora o **losango da logo** como identidade visual recorrente: padrões de fundo, ícones
+e detalhes decorativos sobre degradês escuros.
 
 ---
 
@@ -100,27 +98,6 @@ public_html/
 3. Acesse [http://localhost:8000](http://localhost:8000).
 
 > Os formulários enviam para um handler externo de e-mail e exigem conexão com a internet.
-
----
-
-## 📦 Deploy
-
-Publicar o conteúdo da pasta na **raiz** (`public_html`) do servidor web. Os caminhos são
-relativos, portanto a pasta deve ser servida como raiz do domínio.
-
----
-
-## 📋 Pendências
-
-- [ ] **E-mail**: `contato@eliteassessoria.com.br` é placeholder — `index.html` (contato, footer, JSON-LD)
-- [ ] **Domínio**: `https://www.eliteassessoria.com.br/` é placeholder — `index.html` (canonical, OG, Twitter, JSON-LD), `robots.txt` e `sitemap.xml`
-- [ ] **Ano de fundação**: constante `ANO_FUNDACAO = 2014` em `assets/js/site.js` (alimenta o contador "anos de experiência")
-- [ ] **Estatísticas**: números da barra de stats (`data-count` em `index.html`) são ilustrativos — confirmar valores reais
-
-> 💡 **Recomendação futura:** o site usa o Tailwind Play CDN para manter a base sem build.
-> Para produção em escala, o ideal é compilar o CSS com o Tailwind CLI
-> (`npx tailwindcss -o assets/css/site.css --minify`) e trocar o script do CDN por um
-> `<link rel="stylesheet">` — elimina o flash de página sem estilo e melhora o carregamento.
 
 ---
 
